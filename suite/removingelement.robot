@@ -1,7 +1,9 @@
+*** Settings ***
+Resource  resources.robot
+
 *** Test Case ***
 Remove element
-   Log  login as a test user
-   Sleep  1 second
+   Login
    Log  Remove element ${ELEMENT2}
    Sleep  1 second
-   Log  logout
+   Logout
