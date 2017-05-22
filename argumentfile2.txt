@@ -1,0 +1,2 @@
+--variable ELEMENT1:PIG
+--variable ELEMENT2:DOG
