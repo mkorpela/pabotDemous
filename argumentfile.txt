@@ -1,2 +1,3 @@
 --variable ELEMENT1:APPLE
 --variable ELEMENT2:BANANA
+--variable USER:Tester

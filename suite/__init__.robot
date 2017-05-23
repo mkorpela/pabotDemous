@@ -1,15 +1,8 @@
 *** Settings ***
-Library         pabot.PabotLib
-Suite Setup     Setting ups
-Suite Teardown  Release Value Set
+Library        pabot.PabotLib
+Suite Setup    Run Only Once  Setting up
 
 *** Keywords ***
-Setting ups
-  ${valuesetname}=    Acquire Value Set
-  ${username}=        Get Value From Set   USER
-  BuiltIn.Set Global Variable  ${USER}  ${username}
-  Run Only Once   Setting up
-
 Setting up
   Log  clearing data
   Sleep  1 second
