@@ -1,6 +1,5 @@
 *** Settings ***
-Library        pabot.PabotLib
-Suite Setup    Run Only Once  Setting up
+Suite Setup    Setting up
 
 *** Keywords ***
 Setting up
